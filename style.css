@@ -1,229 +1,240 @@
-html, body{
-    height: 90%;
-    box-sizing: border-box;
+html,
+body {
+  height: 90%;
+  box-sizing: border-box;
 }
 
-body, input, textarea{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 18px;
+body,
+input,
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
 }
 
-body{
-    background: rgb(255,255,255);
-    overflow-y: scroll;
-    margin: 0;
-    padding: 0;
+body {
+  background: rgb(255, 255, 255);
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
 }
 
-article{
-    width: 800px;
-    height: 620px;
-    display: flex;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 90px;
-    margin-bottom: 50px;
+article {
+  width: 800px;
+  height: 620px;
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  margin-bottom: 50px;
 }
 
-.conteudo{
-    position: relative;
-    width: 239px;
-    left: 44px;
-    bottom: 522px;
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  font-size: 38px;
 }
 
-.LOGO{
-    width: 210px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+.conteudo {
+  position: relative;
+  width: 239px;
+  left: 44px;
+  bottom: 522px;
 }
 
-.login{
-    border: 1px solid #dbdbdb;
+.LOGO {
+  width: 210px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
-#email{
-    margin-top: 15px;
-    width: 250px;
-    height: 30px;
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
+.login {
+  border: 1px solid #dbdbdb;
 }
 
-#password{
-    margin-top: 6px;
-    width: 250px;
-    height: 30px;
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
+#email {
+  margin-top: 15px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
 }
 
-.submit{
-    border: 0;
-    background-color: rgb(120, 200, 253);
-    color: white;
-    border-radius: 3px;
-    cursor: pointer;
+#password {
+  margin-top: 6px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
 }
 
-button{
-    margin-top: 15px;
-    width: 257px;
-    height: 31px;
+.submit {
+  border: 0;
+  background-color: rgb(120, 200, 253);
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
-.detalhe{
-    display: flex;
-    flex: 1;
-    margin-top: 20px;
-    margin-bottom: 20px;
+button {
+  margin-top: 15px;
+  width: 257px;
+  height: 31px;
 }
 
-.linha{
-    background-color: #dbdbdb;
-    height: 1px;
-    width: 108px;
-    margin-top: auto;
-    margin-bottom: auto;
+.detalhe {
+  display: flex;
+  flex: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#linha1{
-    margin-left: auto;
+.linha {
+  background-color: #dbdbdb;
+  height: 1px;
+  width: 108px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-#linha2{
-    margin-right: auto;
+#linha1 {
+  margin-left: auto;
 }
 
-.outro{
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #8e8e8e;
+#linha2 {
+  margin-right: auto;
 }
 
-.enter-F{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    color: #385185;
-    text-decoration: none;
+.outro {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #8e8e8e;
 }
 
-.esq-senha{
-    color: black;
-    text-decoration: none;
-    margin-bottom: 30px;
-    margin-top: 0;
-}
-.cadastre-se{
-    border: 1px solid #dbdbdb;
-    margin-top: 25px;
-    margin-bottom: 25px;
+.enter-F {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: #385185;
+  text-decoration: none;
 }
 
-.pav-cadastre{
-    color: rgb(120, 200, 253);
-    text-decoration: none;
+.esq-senha {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.cadastre-se {
+  border: 1px solid #dbdbdb;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-
-.icon-facebook{
-    width: 20px;
-    display: inline-block;
-    margin-right: 8px;
-    position: relative;
-    top: 3px;
+.pav-cadastre {
+  color: rgb(120, 200, 253);
+  text-decoration: none;
 }
 
-.logo-download{
-    display: flex;
-    flex-direction: row;
+.icon-facebook {
+  width: 20px;
+  display: inline-block;
+  margin-right: 8px;
+  position: relative;
+  top: 3px;
 }
 
-.apple-store{
-    width: 190px;
-    cursor: pointer;
+.logo-download {
+  display: flex;
+  flex-direction: row;
 }
 
-.google-store{
-    width: 190px;
-    cursor: pointer;
+.apple-store {
+  width: 190px;
+  cursor: pointer;
 }
 
-.plus{
-    text-align: center;
-    color: #8e8e8e;
-    text-decoration: none;
-    padding-left: 16px;
-    padding-right: 16px;
+.google-store {
+  width: 190px;
+  cursor: pointer;
 }
 
-a{
-    color: #8e8e8e;
-    text-decoration: none;
-    margin-right: 20px;
+.plus {
+  text-align: center;
+  color: #8e8e8e;
+  text-decoration: none;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-
-.linguagem{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+a {
+  color: #8e8e8e;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
-#conf-ling{
-    border: 0;
-    width: 136px;
-    color: #8e8e8e;
-    margin-right: 20px;
+.linguagem {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#conf-ling {
+  border: 0;
+  width: 136px;
+  color: #8e8e8e;
+  margin-right: 20px;
 }
 
 /*Responsividade*/
 
-@media (max-width: 1023px){
-    article{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 50px;
-    }
+@media (max-width: 1023px) {
+  article {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+  }
 
-    .phone {
-        display: none;
-    }
+  .phone {
+    display: none;
+  }
 
-    .caixa-login{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .login{
-        width: 378px;
-    }
+  .caixa-login {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login {
+    width: 378px;
+  }
 }
 
-@media (max-width: 768px){
-    article{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 50px;
-    }
+@media (max-width: 768px) {
+  article {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+  }
 
-    .plus{
-        text-align: center;
-    }
+  .plus {
+    text-align: center;
+  }
 
-    .logo-download {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    footer{
-        display: block;
-    }
+  .logo-download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    display: block;
+  }
 }
